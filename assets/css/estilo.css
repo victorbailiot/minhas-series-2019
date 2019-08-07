@@ -1,0 +1,55 @@
+.header{
+  background-color: #c0392b;
+}
+.header--title{
+  color: azure;
+  text-shadow: 1px 1px 1px #3030307a;
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+}
+.header--title-bgwhite{
+  background-color: white;
+  color: #c0392b;
+  font-family: 'Open Sans', sans-serif;
+}
+/* serie cover */
+
+.serie{
+  text-align: center;
+}
+  .serie--title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+  }
+  .serie--genre{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #a9a4a9;
+    display: block;
+  }
+  .serie--image{
+    max-width: 328px;
+    max-height: 437px;
+    display: inline-block;
+  }
+  .serie--readmore{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    background-color: #c0392b;
+    text-decoration: none;
+    display: block;
+  }
+  .serie--readmore-hover{
+    background-color: #E74C3C; 
+  }
+/* footer */
+.footer{
+  background-color: #eeeeee;
+  color: #c0392b;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+}
+  .footer--image{
+    width: 25px;
+    height: 25px;
+  }
