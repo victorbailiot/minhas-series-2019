@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "file:///home/superaluno/projetos/minhas-series-2019/index.html",
+            "url": "file:///home/superaluno/projetos/minhas-series-2019/game-of-thrones.html",
             "webRoot": "${workspaceFolder}"
         }
     ]
