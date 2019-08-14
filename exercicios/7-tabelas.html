@@ -1,7 +1,65 @@
 <!-- 
   Exercício 7: marcar a tabela; realizar a estilização.
  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabelas</title>
+  <style>
+  .table{
+    width: 70%;
+  }
+  .table, .table td, .table th{
+    border: 1px black solid;
+    border-collapse: collapse;
+  }
+  .table td, .table th{
+    padding: 7px;
+  }
+  .table tr:nth-child(even){
+    background-color: rgb(230, 225, 225);
+  }
+  .table tr:nth-child(1){
+    background-color:rgb(145, 159, 236);
+    color: rgb(255, 255, 255);
+  }
+  .table tr:hover:not(:nth-child(1)){
+    background-color: rgb(184, 184, 184);
+  }
+  </style>
+</head>
+<body>
+  <table class=table>
+    <tr>
+    <th>Item</th>
+    <th>Descrição</th>
+    <th>Quantidade</th>
+    <th>Valor</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Sabão em Pó</td>
+      <td>20</td>
+      <td>R$ 5,00</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Sabonete</td>
+      <td>13</td>
+      <td>R$ 1,90</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Papel higiênico</td>
+      <td>17</td>
+      <td>R$ 10,00</td>
+    </tr>
+  </table>
+</body>
+</html>
 
+<br>
 Relatório de Produtos
 Item Descrição       Quantidade Valor
 1    Sabão em pó     20         R$ 5,00
